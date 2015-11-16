@@ -1,0 +1,24 @@
+#ball {
+    position: fixed;
+	border-color: black;
+    -webkit-animation: myfirst 1s linear infinite alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 1s linear infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   { left:500px; top:100px;}
+    25%  { left:500px; top:200px;}
+    50%  { left:500px; top:300px;}
+    75%  { left:500px; top:400px;}
+    100% { left:500px; top:500px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   { left:500px; top:100px;}
+    25%  { left:500px; top:200px;}
+    50%  { left:500px; top:300px;}
+    75%  { left:500px; top:400px;}
+    100% { left:500px; top:500px;}
+}
